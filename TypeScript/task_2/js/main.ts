@@ -60,9 +60,11 @@ function executeWork(employee: Teacher | Director): void {
 type Subjects = 'Math' | 'History';
 
 function teachClass(todayClass: Subjects): string {
+    let cla: string = '';
     if (todayClass === 'Math') {
-        return 'Teaching Math';
+         cla ='Teaching Math';
     } else if (todayClass === 'History') {
-        return 'Teaching History';
+         cla = 'Teaching History';
     }
+    return cla;
 }
