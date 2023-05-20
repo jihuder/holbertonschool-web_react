@@ -1,0 +1,6 @@
+.idea
+task_*/dashboard/node_modules
+task_*/dashboard/dist/*.jpg
+task_*/dashboard/dist/*.js
+task_*/dashboard/dist/*.txt
+task_*/dashboard/dist/*.png
